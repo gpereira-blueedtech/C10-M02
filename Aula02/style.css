@@ -1,0 +1,20 @@
+p, h3 {
+    color: red;
+    text-decoration: underline;
+}
+
+section article p {
+    font-weight: bold;
+}
+
+section {
+    background-color: aquamarine;
+}
+
+#li1 {
+    color: blue;
+}
+
+.li2 {
+    color: green;
+}
