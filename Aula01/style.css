@@ -4,6 +4,10 @@
 
 } */
 
+/* 
+Seletor de elemento: 
+Eu uso apenas o nome do elemento e o estilo será aplicado a todos os elementos desse tipo
+*/
 body {
     background-color: rosybrown;
     margin: 0;
@@ -20,12 +24,23 @@ p {
     color: blue;
   }
 
+/*
+Seletor de ID:
+Aplica o estilo ao elemento com a ID especificada
+Ex: <elemento id="rodape">
+*/
 #rodape {
         color: red;
         width: 500px;
         border: 1px solid black;
 }
 
+/*
+Seletor de Classe: 
+Seleciona todos os elementos que pertencem à classe especificada
+Ex: <elemento class="titulo1">
+    <elemento2 class="titulo1">
+*/
 .titulo1 {
     color: green;
     width: 100%;
