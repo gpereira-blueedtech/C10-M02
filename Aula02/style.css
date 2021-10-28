@@ -1,11 +1,28 @@
+body {
+    background-color: rgb(111, 183, 231);
+}
+
 /* 
 Seletor de elemento: 
 Eu uso apenas o nome do elemento e o estilo será aplicado a todos os elementos desse tipo
 Ex: <section>
 */
 section {
-    background-color: aquamarine;
+    background-color:bisque;
 }
+
+.container{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container * {
+    border: 1px solid;
+}
+
 
 /* 
 Múltiplos elementos: 

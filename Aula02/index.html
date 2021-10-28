@@ -18,11 +18,11 @@
 <body>
     <!-- header é usado para cabeçalhos. Dentro dele vou colocar os conteúdos-->
     <header>
-        <h1>Aula 02 - Codelab</h1>
+        <h1 id="titulo">Aula 02 - Codelab</h1>
         <h3>Projeto 1 - Jogo do humor</h3>
     </header>
     <main>
-        <section>
+        <section id="primeira">
             <h2>Revisão da aula anterior</h2>
             <!-- <ul> cria uma lista "não ordenada"-->
             <ul>
@@ -31,8 +31,11 @@
                 <li class="li2">HTML Semântico</li>
                 <li class="li2">Introdução ao CSS</li>
             </ul>
+
+            <button id="btn-texto">Adicionar texto</button>
+
         </section>
-        <section>
+        <section class="container">
             <h2>Explicação do projeto 1</h2>
             <h3>Jogo do Humor</h3>
             <article>
@@ -41,7 +44,7 @@
             </article>
             <article>
                 <h4>Como entregar o projeto no GitHub Pages:</h4>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TSTk1xjeWro" 
+                <iframe width="350px" src="https://www.youtube-nocookie.com/embed/TSTk1xjeWro" 
                 title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </article>
@@ -50,5 +53,7 @@
     <footer>
         <p>2021 - Blue EdTech</p>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
