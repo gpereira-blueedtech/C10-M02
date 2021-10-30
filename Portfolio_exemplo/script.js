@@ -2,6 +2,7 @@ let nome = document.querySelector('#nome')
 let email = document.querySelector('#email')
 let mensagem = document.querySelector('#mensagem')
 let btnEnviar = document.getElementById("enviar")
+let textoHtml = document.querySelector("#html5texto")
 let nomeOk = false
 let emailOk = false
 let msgOk = false
@@ -59,3 +60,7 @@ mensagem.addEventListener('keyup', () => {
 btnEnviar.addEventListener('click', () => {
    alert('Mensagem enviada com sucesso!')
 })
+
+textoHtml.addEventListener('mouseover', () => {
+   textoHtml.style.color = "red";
+});
